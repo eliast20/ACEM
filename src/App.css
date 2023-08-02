@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* App.css */
+.carousel-container {
+  max-width: 300px; /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.contact-me-section {
+  display: flex;
+  color: gray;
+  margin-bottom: 0px;
+  font-size: small;
+
+}
+.image-container {
+  position: absolute; /* Position the image container absolutely within its parent */
+  right: 5px; /* Adjust the distance from the right side as needed */
+  top: 50%; /* Vertically center the image container */
+  transform: translateY(-50%);
+}
+
+img {
+  /* Keep the original margin-top value to adjust the vertical position */
+  margin-top: 1px;
+
+  /* No need for position and margin properties here */
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
