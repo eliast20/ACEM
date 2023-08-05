@@ -1,3 +1,4 @@
+/* Default styles for larger screens */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -20,7 +21,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-/* Default styles for larger screens */
 .contact-container {
   flex-direction: column;
   align-items: flex-start;
@@ -28,11 +28,13 @@
   margin-top: 540px;
   color: black;
 }
+
 .new {
   position: absolute;
   font-size: 60px;
   margin-left: 580px;
 }
+
 h1 {
   font-size: 45px;
   line-height: 1.1;
@@ -40,9 +42,11 @@ h1 {
   color: black;
   margin-left: 650px;
 }
+
 h2 {
   color: black;
 }
+
 h3 {
   font-size: 25px;
   line-height: 1.1;
@@ -50,6 +54,7 @@ h3 {
   color: black;
   margin-left: -620px;
 }
+
 h4 {
   margin-left: -630px;
 }
@@ -75,6 +80,11 @@ h4 {
   }
   h4 {
     margin-left: 0;
+  }
+
+  /* Change the phone number font color to blue on smaller screens (e.g., iPhones) */
+  .phone-number {
+    color: blue;
   }
 }
 

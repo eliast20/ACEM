@@ -22,9 +22,9 @@ function App() {
         </h2>
         <h3>
           Instagram:{" "}
-          <a href="https://www.instagram.com/acem_atelier/">ACEM</a>
+          <a href="https://www.instagram.com/acem_atelier/">acem_atelier</a>
         </h3>
-        <h4>Phone: +1 888 288 3033</h4>
+        <h4 className='phone-number'>Phone: +1 888 288 3033</h4>
       </div>
     </>
   );
