@@ -98,4 +98,9 @@ h4 {
   .acem-section {
     margin-bottom: 20px;
   }
+
+  /* Move "Contact Me" section to the right */
+  .contact-me {
+    margin-left: 50px;
+  }
 }
