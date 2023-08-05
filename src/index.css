@@ -62,9 +62,12 @@ h4 {
 /* Media query for smaller screens (e.g., iPhones) */
 @media (max-width: 767px) {
   .contact-container {
-    margin-left: 0;
+    margin-left: 0px;
     margin-top: 20px; /* Adjust the spacing as needed */
     text-align: center; /* Center the content on smaller screens */
+  }
+  .chiken {
+    margin-left: -40px;
   }
   .new {
     font-size: 30px;

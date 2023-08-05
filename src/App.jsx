@@ -18,7 +18,7 @@ function App() {
         <h2>
           Emails:{" "}
           <a href="mailto:charlie@wilfredwinston.com">charlie@wilfredwinston.com</a>,{" "}
-          <a href="mailto:Alberto@newarrivalsgallery.com">Alberto@newarrivalsgallery.com</a>
+          <a href="mailto:Alberto@newarrivalsgallery.com" className='chiken'>Alberto@newarrivalsgallery.com</a>
         </h2>
         <h3>
           Instagram:{" "}
