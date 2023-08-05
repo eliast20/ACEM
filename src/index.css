@@ -97,6 +97,7 @@ h4 {
   /* Add spacing between "ACEM" and "Contact Me" sections */
   .new {
     margin-bottom: 20px;
+    margin-left: -30px;
   }
 
   /* Move "Contact Me" section to the right */
