@@ -86,18 +86,16 @@ h4 {
   .phone-number {
     color: blue;
   }
-}
 
-/* Light mode styles */
-@media (prefers-color-scheme: light) {
+  /* Adjust image positioning to fill up more of the screen on iPhones */
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    background-position: top center;
+    background-size: cover;
+    margin-top: 0;
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+
+  /* Add spacing between "ACEM" and "Contact Me" sections */
+  .acem-section {
+    margin-bottom: 20px;
   }
 }
