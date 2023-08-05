@@ -9,9 +9,9 @@
   background-image: url('/src/assets/lookBook2.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: cover;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  background-position: center center;
+  margin-top: 0;
+  margin-bottom: 0;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,12 +20,12 @@
   -webkit-text-size-adjust: 100%;
 }
 
-
+/* Default styles for larger screens */
 .contact-container {
   flex-direction: column;
-  align-items: flex-start; /* Align items to the left */
-  margin-left: -600px; /* Add some left margin for spacing */
-  margin-top: 540px; /* Add top margin for spacing */
+  align-items: flex-start;
+  margin-left: -600px;
+  margin-top: 540px;
   color: black;
 }
 .new {
@@ -35,18 +35,17 @@
 }
 h1 {
   font-size: 45px;
-  line-height:1.1;
+  line-height: 1.1;
   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
   color: black;
   margin-left: 650px;
 }
-
 h2 {
   color: black;
 }
 h3 {
   font-size: 25px;
-  line-height:1.1;
+  line-height: 1.1;
   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
   color: black;
   margin-left: -620px;
@@ -55,7 +54,31 @@ h4 {
   margin-left: -630px;
 }
 
+/* Media query for smaller screens (e.g., iPhones) */
+@media (max-width: 767px) {
+  .contact-container {
+    margin-left: 0;
+    margin-top: 20px; /* Adjust the spacing as needed */
+    text-align: center; /* Center the content on smaller screens */
+  }
+  .new {
+    font-size: 30px;
+    margin-left: 0;
+  }
+  h1 {
+    font-size: 30px;
+    margin-left: 0;
+  }
+  h3 {
+    font-size: 20px;
+    margin-left: 0;
+  }
+  h4 {
+    margin-left: 0;
+  }
+}
 
+/* Light mode styles */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
